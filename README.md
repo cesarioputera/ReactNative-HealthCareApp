@@ -23,11 +23,7 @@ npx react-native run-android
 ### For iOS
 **Note**: iOS is not supported yet 
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Testing Purpose
+## Testing Data! :bookmark:
 - User Login
    - cesario@gmail.com / Admin123
 - Mock Location
