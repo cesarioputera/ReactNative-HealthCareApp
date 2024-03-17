@@ -1,15 +1,9 @@
 import React from 'react';
-
-import {Provider} from 'react-redux';
 import AppContainer from './navigation';
-
-import store from './reducers';
 
 const App = () => {
   return (
-    <Provider store={store}>
-      <AppContainer />
-    </Provider>
+    <AppContainer />
   );
 };
 

@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-
 import { RouterParam, ScreenMap } from '../navigation/router';
 import firestore, { Filter } from '@react-native-firebase/firestore';
 import { Clinic } from '../models/Clinic';

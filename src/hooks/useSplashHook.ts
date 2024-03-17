@@ -7,7 +7,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 const useSplashHook = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RouterParam>>();
   useEffect(() => {
-    setTimeout(_checkLogin , 3000)
+    setTimeout(_checkLogin , 2000)
   }, []);
 
   const _checkLogin = async () => {
